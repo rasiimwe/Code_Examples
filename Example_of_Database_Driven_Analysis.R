@@ -46,8 +46,11 @@ on.exit(dbDisconnect(con))
 # ---------------------------------------------------------------------------------------
 
 
-gene.list <- c("TP53","PIK3CA","PTEN")
-annotation.list <- c("inframe", "missense")
+#gene.list <- c("TP53","PIK3CA","PTEN")
+#annotation.list <- c("inframe", "missense")
+
+gene.list <- c("TP53","PIK3CA","PTEN","RB1","BRCA1","BRCA2","GATA3","ERBB2","USH2A","EGFR", "MUC21", "EMCN", "MUC4", "MB", "CTU2", "RAB3IL1", "CLEC9A", "NOL10", "LAMB4", "OTOR","TMEM80", "NUBPL", "TRPM3", "PLP1", "SPATA4", "GUCY2C","PRB3", "MIDN")
+annotation.list <- c("inframe", "missense", "gene_fusion", "frameshift", "splice_acceptor", "splice_donor", "stop_lost", "stop_gained", "start_lost")
 
 
 # DB call - titan_call = HOMD
