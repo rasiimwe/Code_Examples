@@ -28,11 +28,8 @@ library(magicfor)
 #     ssh -L x:localhost:x1 rasiimwe@lab17                 
 
 pw <- " " 
-
-port_number <- x #provide port number - DB connection
-
+port_number <- x #provide port number for DB connection
 database_name <- y #provide database name
-
 usr <- "rasiimwe" #DB user name
 
 #Connecting to back-end database
