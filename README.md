@@ -8,7 +8,7 @@
 | **SN** |  **File**   | **Description** |
 |----------------|------------|------------|
 |1|[Example_of_Database_Driven_Analysis.R](https://github.com/rasiimwe/Code_Examples/blob/main/Example_of_Database_Driven_Analysis.R)|Provides an example on how to conduct database_driven analyses and produces [this](https://github.com/rasiimwe/Code_Examples/blob/main/oncoplot_funccall.pdf) multi-hit oncoplot|
-|2|[Breat_cancer_prediction.ipynb](https://github.com/rasiimwe/Code_Examples/blob/main/Breat_cancer_prediction.ipynb)|Using the [Wisconsin breast cancer diagnostic dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)for predictive analysis - improving kaggle example|
+|2|[Breat_cancer_prediction.ipynb](https://github.com/rasiimwe/Code_Examples/blob/main/Breat_cancer_prediction.ipynb)|Using the [Wisconsin breast cancer diagnostic dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29) for predictive analysis - improving Aditi's awesome kaggle example|
 |3|[Genomic_Subgroups.py](https://github.com/rasiimwe/Code_Examples/blob/main/Genomic_Subgroups.py)| |
 |4|[Model_creation_using_ML_algorithm.ipynb](https://github.com/rasiimwe/Code_Examples/blob/main/Model_creation_using_ML_algorithm.ipynb)| |
 |5|[Mutation_loads.py](https://github.com/rasiimwe/Code_Examples/blob/main/Mutation_loads.py)| |
