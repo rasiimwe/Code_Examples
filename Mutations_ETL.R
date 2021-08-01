@@ -29,14 +29,12 @@ for(i in museqsnvs_path){
                # print (f)
                 x <- matrix(unlist(strsplit(as.character(f), '/')), ncol=1, byrow=TRUE)
                 tumour_id <- as.character(x[5])
-                ##tumour_archive_id <- matrix(unlist(strsplit(as.character(x[9]), '_museq')), ncol=1, byrow=TRUE) #for montreal
+                ##tumour_archive_id <- matrix(unlist(strsplit(as.character(x[9]), '_museq')), ncol=1, byrow=TRUE) #for montreal cases - different namings
                	#print (tumour_id)
 		
-	
-		vcf <- readVcf(f, "hg19")# museq
+		vcf <- readVcf(f, "hg19")
               	if (dim(vcf)[1]!=0){
 	            	initial <- data.frame(info(vcf)) #everything under info
-        	  	##all <- data.frame(info(vcf)) #everything under
          		initial <- tibble::rownames_to_column(initial, "chrom_pos_ref_alt")
 			#print(initial)
 
@@ -51,7 +49,6 @@ for(i in museqsnvs_path){
       			names(after3) <- c("chrom_pos_ref_alt", "chrom", "pos1", "pos", "ref_alt", "ref", "alt")
       
      			initial <- cbind (after3$chrom, after3$pos,after3$ref,after3$alt,initial)
-	      		#initial <- cbind (initial, after3$chrom, after3$pos,after3$ref,after3$alt)
       			names(initial)[names(initial) == 'after3$chrom'] <- 'chrom'
       			names(initial)[names(initial) == 'after3$pos'] <- 'pos'
 	      		names(initial)[names(initial) == 'after3$ref'] <- 'ref'
@@ -74,7 +71,6 @@ for(i in museqsnvs_path){
 	      		newann$tumour_id <- tumour_id
       			newann <- setNames(newann, tolower(colnames(newann)))
       			museq_unfiltered <- newann[,c(35,1:12,19:34,13:18)]
-			#museq_unfiltered <- newann[,c(1:12,19:34,13:18)]
 	      		museq_unfiltered <- cbind("id"=1:nrow(museq_unfiltered), museq_unfiltered)
 
 			dbWriteTable(con, "museq_unfiltered", museq_unfiltered, append=TRUE, row.names=0)
