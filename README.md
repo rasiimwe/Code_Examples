@@ -17,4 +17,7 @@
 |8|[Pipeline_result_paths.py](https://github.com/rasiimwe/Code_Examples/blob/main/Pipeline_result_paths.py)|Example 2 on python-based ETL|
 |9|[Samples_Object.py](https://github.com/rasiimwe/Code_Examples/blob/main/Samples_Object.py)|This file contains code that opens a connection to the backend database (also implemented in most files), creates required database objects and loads structured data into the created database object - a more efficient  way of creating database objects and loading data at the same time|
 |10|[WGS_QC.py](https://github.com/rasiimwe/Code_Examples/blob/main/WGS_QC.py)|This file contains a Dash example on quality control checks and visualization of sequencing data|
+|11|[DNAme preprocessing.Rmd](https://github.com/rasiimwe/Code_Examples/blob/main/DNAme%20preprocessing.Rmd)|This file contains examples of key steps required to preprocess DNA methylation data from raw IDAT files|
+
+
 
