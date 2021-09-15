@@ -18,6 +18,10 @@
 |9|[Samples_Object.py](https://github.com/rasiimwe/Code_Examples/blob/main/Samples_Object.py)|This file contains code that opens a connection to the backend database (also implemented in most files), creates required database objects and loads structured data into the created database object - a more efficient  way of creating database objects and loading data at the same time|
 |10|[WGS_QC.py](https://github.com/rasiimwe/Code_Examples/blob/main/WGS_QC.py)|This file contains a Dash example on quality control checks and visualization of sequencing data|
 |11|[DNAme preprocessing.Rmd](https://github.com/rasiimwe/Code_Examples/blob/main/DNAme%20preprocessing.Rmd)|This file contains examples of key steps required to preprocess DNA methylation data from raw IDAT files|
+|12|[Linear_Mixed_Effects_Models.Rmd](https://github.com/rasiimwe/Code_Examples/blob/main/Linear_Mixed_Effects_Models.Rmd)|This file contains an example on fitting linear mixed-effects model (LMMs) using lmer on over 5000 CpG sites to investigate the association between DNA methylation and disease given various exposures|
+
+
+
 
 
 
