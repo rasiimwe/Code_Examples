@@ -14,6 +14,8 @@ editor_options:
 
 #### Running Linear Mixed-Effects Models on different tissues (1-3) from an environmental exposure dataset with 4 distinct exposures (Exposure (Exp) 1 - 4).
 
+_**Fitting linear mixed effect models on M-values using the R lme4 package, with participant id included as a random effect and exposure, sex, and age considered as fixed effects**_
+
 #### Cohort description: Concealed for purposes of this example
 
 
